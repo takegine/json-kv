@@ -1,26 +1,25 @@
 {
-   "name":"keyvalues-node",
-   "description":"Valve's KeyValues Text File Format serialization library",
-   "version":"0.0.2",
-   "homepage":"http://github.com/kavu/keyvalues-node",
-   "repository":"git://github.com/kavu/keyvalues-node.git",
-   "author":"Max Riveiro <kavu13@gmail.com> (http://riveiro.ru/)",
-   "tags":["util", "serialize", "parser", "encoder"],
-   "main":"./index.js",
-   "issues":{
-      "url" : "http://github.com/kavu/keyvalues-node/issues",
-      "email" : "kavu13+node@gmail.com"
+   "name": "dota-js-kv",
+   "description": "a tools for turn to json to dota2's kv file.//Valve's KeyValues Text File Format serialization library",
+   "version": "0.1.0",
+   "homepage": "http://github.com/takegine/json-kv",
+   "repository": "git://github.com/takegine/json-kv.git",
+   "author": "西索酱",
+   "tags": [
+      "util",
+      "serialize",
+      "parser",
+      "encoder"
+   ],
+   "main": "./index.js",
+   "issues": {
+      "url": "http://github.com/takegine/json-kv/issues"
    },
-   "engines":{
-      "node":">= 0.4.0"
+   "engines": {
+      "node": ">= 0.4.0"
    },
-   "devDependencies":{
-      "expresso":"~0.9.2"
+   "devDependencies": {
+      "expresso": "~0.9.2"
    },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/kavu/keyvalues-node/raw/master/LICENSE"
-      }
-   ]
+   "license": "SEE LICENSE IN LICENSE"
 }
